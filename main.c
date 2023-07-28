@@ -36,11 +36,11 @@ long random(long max){return (long)(((double)rand()) / RAND_MAX * max);}
 void Resetgame(){
     pokeChar(Ball.x,Ball.y,' ');
     if(Reket1.score==10){
-        printText(45,17,"too kumara");
+        printText(45,17,"too kumara broj 1!?");
         getchar();
     }
      if(Reket2.score==10){
-        printText(45,17,"too kumara");
+        printText(45,17,"too kumara broj 2!!:(");
         getchar();
      }
     Ball.x = 45;
